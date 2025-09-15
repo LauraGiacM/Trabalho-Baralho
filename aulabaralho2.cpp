@@ -70,7 +70,7 @@ do{
 cout << "Há mais jogadores?(sim ou nao)" << endl;
 cin >> resposta;
 if(resposta == "sim"){
-    
+embaralhar(baralho, 52); 
 v.resize(v.size() + 1);
 v[v.size() - 1].jogador1 = "Qualquer";
 v[v.size() - 1].j1 = baralho[51];
